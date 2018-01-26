@@ -1,0 +1,25 @@
+﻿  Figure.cpp
+  LoginScene.cpp
+  RoleCreateLayer.cpp
+  TextureController.cpp
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(15): warning C4305: “=”: 从“double”到“float”截断
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(19): warning C4305: “=”: 从“double”到“float”截断
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(48): warning C4305: “=”: 从“double”到“float”截断
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(211): warning C4996: 'cocos2d::Node::setRotationY': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(654): note: 参见“cocos2d::Node::setRotationY”的声明
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(215): warning C4996: 'cocos2d::Node::setRotationY': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(654): note: 参见“cocos2d::Node::setRotationY”的声明
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(222): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159): note: 参见“cocos2d::Node::setZOrder”的声明
+c:\users\dell\desktop\hotbloodcity\classes\figure.cpp(226): warning C4996: 'cocos2d::Node::setZOrder': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccnode.h(159): note: 参见“cocos2d::Node::setZOrder”的声明
+c:\users\dell\desktop\hotbloodcity\classes\texturecontroller.cpp(82): error C2065: “GAME_SCENE”: 未声明的标识符
+c:\users\dell\desktop\hotbloodcity\classes\rolecreatelayer.cpp(152): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\dell\desktop\hotbloodcity\classes\rolecreatelayer.cpp(151): warning C4996: 'cocos2d::Layer::setTouchEnabled': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\cclayer.h(179): note: 参见“cocos2d::Layer::setTouchEnabled”的声明
+c:\users\dell\desktop\hotbloodcity\classes\rolecreatelayer.cpp(154): warning C4996: 'cocos2d::ccWHITE': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(405): note: 参见“cocos2d::ccWHITE”的声明
+c:\users\dell\desktop\hotbloodcity\classes\rolecreatelayer.cpp(175): warning C4996: 'cocos2d::CCCallFuncO': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(634): note: 参见“cocos2d::CCCallFuncO”的声明
+c:\users\dell\desktop\hotbloodcity\classes\rolecreatelayer.cpp(175): warning C4996: 'cocos2d::__CCCallFuncO::create': 被声明为已否决
+  c:\cocos\cocos2d-x\cocos2d-x-3.10\cocos\2d\ccactioninstant.h(523): note: 参见“cocos2d::__CCCallFuncO::create”的声明

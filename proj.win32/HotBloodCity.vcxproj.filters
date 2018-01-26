@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城">
+      <UniqueIdentifier>{1f7935d9-761e-4e3c-9e6d-9fc3f4be07e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\场景">
+      <UniqueIdentifier>{034b296d-9758-498c-bd92-f4b4e7757ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\场景\登录场景">
+      <UniqueIdentifier>{0d7afe31-1f2c-4266-a140-ec61d3a466d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\场景\角色创建">
+      <UniqueIdentifier>{6f0ef884-c21a-4a44-843e-f447c7f5d46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\全局工具">
+      <UniqueIdentifier>{c2516b3b-f951-43e8-9e11-c8acdb3279e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\全局工具\UTF-8">
+      <UniqueIdentifier>{070eeb6f-9213-43b2-97f6-86bdd319df0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\实体">
+      <UniqueIdentifier>{bb857c82-3057-4f92-b1be-8397990dfe77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="热血沙城\场景\游戏场景">
+      <UniqueIdentifier>{1e545ecf-28d4-407b-af65-b1f100b2a36c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoginScene.cpp">
+      <Filter>热血沙城\场景\登录场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleCreateLayer.cpp">
+      <Filter>热血沙城\场景\角色创建</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FontChina.cpp">
+      <Filter>热血沙城\全局工具\UTF-8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Figure.cpp">
+      <Filter>热血沙城\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TextureController.cpp">
+      <Filter>热血沙城\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>热血沙城\场景\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monomer.cpp">
+      <Filter>热血沙城\实体</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene.h">
+      <Filter>热血沙城\场景\登录场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleCreateLayer.h">
+      <Filter>热血沙城\场景\角色创建</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FontChina.h">
+      <Filter>热血沙城\全局工具\UTF-8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Figure.h">
+      <Filter>热血沙城\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TextureController.h">
+      <Filter>热血沙城\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>热血沙城\场景\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monomer.h">
+      <Filter>热血沙城\实体</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
